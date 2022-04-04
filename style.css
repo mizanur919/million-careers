@@ -1,0 +1,256 @@
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+:root {
+    --font-open-sans: 'Open Sans', sans-serif;
+    --color-black: #000000; 
+    --color-gray: #777777;
+    --color-red: #BA2422;
+    --color-blue: #051D33;
+    --dark-blue: #0A2640
+  }
+
+  body{
+      font-family: var(--font-open-sans);
+  }
+
+/* Header And Hero Section */
+.header-and-hero{
+     padding-top: 300px;
+    /*background: url('./images/bg-top-left.png') left top no-repeat, url('./images/bg-top-right.png') right top no-repeat; */
+
+    background-image: url('./images/bg-top-left.png'), url('./images/bg-top-right.png');
+    background-position: top left, top right;
+    background-repeat: no-repeat, no-repeat;
+}
+
+#logo{
+    width: 160px;
+}
+
+.navbar-nav li{
+    margin-right: 40px;
+}
+.navbar-nav li a{
+    font-weight: 700;
+}
+.navbar-nav li:last-child{
+    margin-right: 0;
+}
+/* Hero Section */
+
+.hero-video{
+    height: 290px;
+}
+
+.hero-content h1{
+    color: var(--color-black);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.4em;
+    color: var(--color-black);
+}
+
+.hero-content p{
+    color: var(--color-black);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4em;
+    text-align: justify;
+    color: var(--color-black);
+}
+
+/* Mission, Vision and Services Section */
+
+/* Mission and Vision */
+
+.mission-vision-service-section{
+    margin-top: 65px;
+}
+.mission-content{
+    margin-top: 100px;
+}
+.mission-vision-service-section h2{
+    line-height: 1.4em;
+    color: var(--color-black);
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.mission-vision-service-section p{
+    line-height: 1.4em;
+    color: var(--color-gray);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+/* Services */
+#service-heading{
+    font-weight: 700;
+    color: var(--color-red);
+    font-size: 42px;
+    margin: 60px 0;
+}
+
+.services h2{
+    line-height: 1.4em;
+    font-family: var(--font-open-sans);
+    color: var(--color-black);
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.services p{
+    line-height: 1.4em;
+    font-family: var(--font-open-sans);
+    color: var(--color-gray);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+/* Testimonial Video */
+.testimonial-video-section{
+    margin: 120px 0;
+}
+
+.testimonial-video-section h3{
+    font-size: 40px;
+    font-weight: 400;
+}
+.testimonial-content{
+    border-radius: 20px;
+}
+.testimonial-video{
+    width: 980px;
+    height: 550px;
+}
+
+/* Blog Section */
+.blog-section{
+    background: linear-gradient(111.05deg, #FF4E50 -38.71%, #F9D423 103.54%);
+}
+
+.blog-section h5{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 10px 0 25px 0;
+}
+.blog-section a{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 8px;
+}
+.blog-section a i{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+
+/* Footer Section */
+
+/* Footer Top */
+.footer-top{
+    padding: 40px 0;
+    background-color: var(--color-blue);
+}
+.footer-top-text{
+    padding-right: 140px;
+}
+.footer-top-text p{
+    color: #ffffff;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #C4C4C4;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.footer-top-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-top-nav ul li{
+    
+}
+.footer-top-nav ul li a{
+    font-size: 22px;
+    color: #ffffff;
+    display: block;
+    line-height: 1.8em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-top-nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-top-social-icons h5{
+    color: #ffffff;
+}
+
+.footer-top-social-icons ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-top-social-icons ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.footer-top-social-icons ul li a{
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 36px;
+    width: 70px;
+    height: 70px;
+}
+
+.footer-top-social-icons ul li a i {
+    margin-top: 18px;
+    color: #ffffff;
+}
+
+.footer-top-social-icons ul li .facebook{
+    background: #272EAE;
+}
+
+.footer-top-social-icons ul li .twitter{
+    background: #1590D8;
+;
+}
+
+.footer-top-social-icons ul li .youtube{
+    background: #D0021B;
+
+}
+
+.footer-top-social-icons ul li .instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+
+/* Footer Bottom */
+
+.footer-bottom{
+    padding: 20px 0;
+}
+
+.footer-bottom img{
+    width: 250px;
+}
+
+.appStore{
+    margin-top: 7px;
+}
+
+.footer-bottom-logo img{
+    width: 205px;
+}
