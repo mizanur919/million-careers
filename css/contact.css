@@ -30,6 +30,11 @@
     margin-top: 20px;
 }
 
+.contact-section input, .contact-section textarea{
+    background-color: rgba(196, 196, 196, 0.28);
+    padding: 7px 0 7px 10px;
+}
+
 .my-button{
     background-color: #051D33;
     border: 2px solid #051D33;
@@ -42,3 +47,18 @@
     color: #051D33;
     font-weight: 700;
 }
+
+/* Contact Info */
+.contact-info h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #051D33;
+}
+
+.contact-info p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #5C5C5C;
+}
+
+
