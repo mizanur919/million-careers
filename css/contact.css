@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Open+Sans:wght@300;400;500;700&display=swap');
+
+.contact-section{
+    background-image: url('../images/bg-left-service.png');
+    background-position: -121px 439px;
+    background-repeat: no-repeat;
+    padding: 50px 0 100px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-section h2{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 55px;
+}
+
+.contact-section p{
+    color: #5C5C5C;
+    font-size: 20px;
+}
+
+.contact-section label{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 2px;
+}
+
+.contact-section button{
+    margin-top: 20px;
+}
+
+.my-button{
+    background-color: #051D33;
+    border: 2px solid #051D33;
+    transition: all ease .5s;
+    font-weight: 700;
+}
+.my-button:hover{
+    border: 2px solid #051D33;
+    background-color: transparent;
+    color: #051D33;
+    font-weight: 700;
+}

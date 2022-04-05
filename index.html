@@ -7,78 +7,77 @@
     <title>Million Careers</title>
 
     <!-- Main CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.css">
 
     <!-- Fontawesome CSS CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!-- Header and Hero Section -->
-   <div class="header-and-hero">
-        <!-- Header Section -->
-        <Header>
+    
+    <!-- Header Section -->
+    <Header class="header-section">
             <!-- Navbar  -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
             <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./images/logo.png" alt="" id="logo">
-            </a>
-            <button
-                class="navbar-toggler text-black"
-                type="button"   
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="mx-auto"></div>
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Contact Us</a>
-                </li>
-                </ul>
-            </div>
-            </div>
-        </nav>
-
-            <!-- Hero Section -->
-            <div class="container">
-                <div class="row gap-5 align-items-center">
-                    <div class="col-md hero-content">
-                        <h1>What is Million Careers?</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iure placeat maiores? Necessitatibus molestiae, reiciendis amet cupiditate commodi laudantium numquam.</p>
-                    </div>
-                    <div class="col-md">
-                        <div class="hero-video">
-                            <iframe class="hero-section-video" width="100%" height="100%" src="https://www.youtube.com/embed/9xwazD5SyVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./images/logo.png" alt="" id="logo">
+                </a>
+                <button
+                    class="navbar-toggler bg-dark text-white"
+                    type="button"   
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mx-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="./contact.html">Contact Us</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </Header>
-   </div>
+        </nav>
+    </Header>
+
+   <!-- Hero Section -->
+   <section class="container">
+        <div class="row gap-5 align-items-center">
+            <div class="col-md hero-content">
+                <h1>What is Million <br> Careers?</h1>
+                <p class="pe-5">Millioncareers is primarily a movement to ensure our country's youth
+                    has a solid career, this organisation work towards helping them
+                    through training and guidance with every step of their career.</p>
+            </div>
+            <div class="col-md">
+                <div class="hero-video">
+                    <iframe class="hero-section-video" width="100%" height="100%" src="https://www.youtube.com/embed/9xwazD5SyVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Mission and Vision Section -->
     <section class="mission-vision-service-section">
         <div class="container">
-
             <!-- Mission and Vision -->
             <div class="vision-content">
                 <div class="row align-items-center mt-5">
@@ -158,17 +157,16 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Testimonial Video -->
-    <section class="testimonial-video-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 mx-auto bg-dark px-5 pt-3 pb-5 testimonial-content">
-                    <h3 class="text-center text-white pb-2">Testimonial Video</h3>
-                    <div class="d-flex justify-content-center align-items-center">
-                        <div class="testimonial-video">
-                            <iframe class="testimonial-section-video" width="100%" height="100%" src="https://www.youtube.com/embed/9xwazD5SyVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- Testimonial Video -->
+        <div class="testimonial-video-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto bg-dark px-5 pt-3 pb-5 testimonial-content">
+                        <h3 class="text-center text-white pb-2">Testimonial Video</h3>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="testimonial-video">
+                                <iframe class="testimonial-section-video" width="100%" height="100%" src="https://www.youtube.com/embed/9xwazD5SyVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -263,7 +261,7 @@
             </div>
         </div>
 
-        <!-- Footer Top -->
+        <!-- Footer Bottom -->
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
@@ -286,17 +284,8 @@
 
 
     <!-- Bootstrap JS -->
-    <script src="./js/bootstrap.bundle.js"></script>
-    <script>
-        var nav = document.querySelector('nav');
-
-        window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 100) {
-            nav.style.background = '#e4e4e4';
-        } else {
-            nav.style.background = 'transparent';
-        }
-        });
-    </script>
+    <script src="./js/bootstrap/bootstrap.bundle.js"></script>
+    <!-- Main JS -->
+    <script src="./js/main.js"></script>
 </body>
 </html>

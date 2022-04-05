@@ -1,0 +1,11 @@
+.blog-section{
+    background-image: url('../images/bg-left-service.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.blog-section h2{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 55px;
+}

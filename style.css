@@ -15,7 +15,7 @@
   }
 
 /* Header And Hero Section */
-.header-and-hero{
+.header-section{
      padding-top: 300px;
     /*background: url('./images/bg-top-left.png') left top no-repeat, url('./images/bg-top-right.png') right top no-repeat; */
 
@@ -55,9 +55,9 @@
     color: var(--color-black);
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.4em;
+    line-height: 1.5em;
     text-align: justify;
-    color: var(--color-black);
+    color: var(--color-gray);
 }
 
 /* Mission, Vision and Services Section */
@@ -65,7 +65,9 @@
 /* Mission and Vision */
 
 .mission-vision-service-section{
-    margin-top: 65px;
+    background-image: url('./images/bg-left-service.png'), url('./images/bg-right-middle.png'), url('./images/bg-testi-left.png'), url('./images/bg-testi-right-bottom.png');
+    background-position: top left, top right, bottom left, bottom right;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
 }
 .mission-content{
     margin-top: 100px;
@@ -85,7 +87,16 @@
     text-align: justify;
 }
 
+.vision-content{
+    margin-top: 100px;
+}
+
 /* Services */
+
+.services{
+    
+}
+
 #service-heading{
     font-weight: 700;
     color: var(--color-red);

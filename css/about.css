@@ -1,0 +1,102 @@
+.about-section{
+    background-image: url('../images/bg-left-service.png'), url('../images/bg-right-middle.png'), url('../images/bg-testi-left.png'), url('../images/bg-testi-right-bottom.png');
+    background-position: top left, top right, bottom left, bottom right;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+}
+
+.about-section h2{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 55px;
+}
+.founder-speach{
+    position: relative;
+}
+
+.founder-words{
+    position: absolute;
+    background-color: #53AFA4;
+    bottom: 268px;
+    left: 44%;
+    padding: 100px 120px 100px 60px;
+    width: 70%;
+    height: 430px;
+    color: #fff;
+}
+.founder-border{
+    position: absolute;
+    background-color: transparent;
+    top: 70px;
+    left: 50%;
+    padding: 100px 120px 100px 60px;
+    width: 70%;
+    height: 425px;
+    color: #fff;
+    border: 15px solid #F1632A;
+}
+.founder-words h3{
+    font-size: 40px;
+    font-weight: 800;
+}
+.founder-words p{
+    line-height: 1.7em;
+}
+.founder-info{
+    margin-top: 30px;
+}
+.founder-info h3{
+    font-size: 45px;
+    font-weight: 800;
+    color: #051D33;
+}
+.founder-info h4{
+    font-size: 32px;
+    font-weight: 800;
+    color: #051D33;
+}
+
+.founder-info p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #051D33;
+}
+
+/* About Video */
+.about-video{
+    margin: 0 auto;
+    width: 70%;
+    height: 550px;
+}
+
+.about-section-video{
+    border-radius: 20px;
+}
+.about-content{
+    padding: 0 100px;
+    margin-top: 100px;
+}
+.about-content h2{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.about-content p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2.4em;
+    text-align: justify;
+}
+
+
+/* Person Section */
+.person-section {    
+    margin-bottom: 50px;
+}
+.person-image img{
+    border-radius: 50%;
+}
+
+.person-text h5{
+    font-size: 18px;
+}
